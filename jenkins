@@ -19,7 +19,8 @@ pipeline{
       steps
       {
         echo "testing"
-        sh "python3 vv.py"
+        sh "javac Vvs.java"
+        sh "java Vvs"
       }
     }
   }}
