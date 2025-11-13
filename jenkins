@@ -19,6 +19,7 @@ pipeline{
       steps
       {
         echo "testing"
+        sh "python3 vy.py"
       }
     }
   }}
