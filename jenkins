@@ -20,7 +20,7 @@ pipeline{
       {
         echo "testing"
         sh "javac Vvs.java"
-        sh "java Vvs"
+        sh "java Vvs.java"
       }
     }
   }}
